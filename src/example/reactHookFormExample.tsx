@@ -18,10 +18,10 @@ import React, { useState } from 'react';
   /** 폼 컴포넌트 */
   const FormExample = () => {
     const [ count, setCount ] = useState<number>();
-    let mCount: number = 1;
+    let values = useFetch("/api");;
     
     const { register, handleSubmit, formState: { errors } } = useForm<FormData>({
-      // reValidateMode: 'onBlur',
+      values,
       defaultValues: {
         name: '미리 입력된 데이터',
         email: 'hello@aa.aa'
