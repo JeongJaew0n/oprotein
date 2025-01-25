@@ -3,6 +3,7 @@ import {
     SubmitHandler,
     useForm,
   } from 'react-hook-form';
+import React, { useState } from 'react';
   
   /** 폼 데이터 정의 */
   interface FormData {
@@ -16,7 +17,16 @@ import {
   
   /** 폼 컴포넌트 */
   const FormExample = () => {
-    const { register, handleSubmit } = useForm<FormData>();
+    const [ count, setCount ] = useState<number>();
+    let mCount: number = 1;
+    
+    const { register, handleSubmit, formState: { errors } } = useForm<FormData>({
+      // reValidateMode: 'onBlur',
+      defaultValues: {
+        name: '미리 입력된 데이터',
+        email: 'hello@aa.aa'
+      }
+    });
   
     // 제출 성공 이벤트 핸들러 함수
     const handleSuccess: SubmitHandler<FormData> = (data) => {
@@ -33,7 +43,8 @@ import {
         <h2>회원가입</h2>
         <div className="input-container">
           <label htmlFor="name">이름: </label>
-          <input type="text" {...register('name')} />
+          <input type="text" {...register('name', {required: '이름을 입력하라고!!'})} />
+          {errors.name && <span>{errors.name.message}</span>}
         </div>
   
         <div className="input-container">
