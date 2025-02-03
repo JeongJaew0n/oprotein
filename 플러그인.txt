@@ -1,0 +1,127 @@
+필수 플러그인
+
+오탈자 검증
+
+https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+
+린트
+
+https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+
+코드 포멧팅
+
+https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+
+기타 플러그인
+
+ES201x, React JSX, Flow 및 GraphQL에 대한 JavaScript 구문 강조
+
+https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel
+
+주석 구문 강조(alert, queries, todos, 등)
+
+https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments
+
+.env 파일 구문 강조
+
+https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv
+
+.editorconfig 파일을 인식 및 적용
+
+https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+
+템플릿 리터럴에서 사용되는 html, sql, xml, svg, css, javascript, typescript 구문 강조
+
+https://marketplace.visualstudio.com/items?itemName=Tobermory.es6-string-html
+
+git graph
+
+https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph
+
+자동 임포트된 타입 선언의 "정의로 이동"을 실제 소스 정의로 리다이렉트
+
+https://marketplace.visualstudio.com/items?itemName=antfu.goto-alias
+
+선택된 html의 시작과 종료 태그 강조 표시
+
+https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag
+
+i18n 다국어 표시 - 코드에 해당되는 번역으로 노출
+
+https://marketplace.visualstudio.com/items?itemName=Lokalise.i18n-ally
+
+ai 코드 인텔리센스
+
+https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
+
+https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.intellicode-api-usage-examples
+
+json을 ts 인터페이스로 추출
+
+https://marketplace.visualstudio.com/items?itemName=MariusAlchimavicius.json-to-ts
+
+라이브 서버
+
+https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+
+라이브 쉐어
+
+https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare
+
+폴더/파일 테마
+
+https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+
+파일 경로 인텔리센스
+
+https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
+
+plant uml
+
+https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml
+
+svg viewer
+
+https://marketplace.visualstudio.com/items?itemName=SimonSiefke.svg-preview
+
+tailwindcss 인텔리센스
+
+https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
+
+styled component
+
+https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components
+
+색상 코드 미리보기
+
+https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components
+
+vue extension box
+
+여러 플러그인이 포함됨
+
+경로 인텔리센스
+
+auto close tag
+
+auto rename tag
+
+sass
+
+scss formatter
+
+prettier
+
+eslint
+
+vue - official
+
+https://marketplace.visualstudio.com/items?itemName=MisterJ.vue-volar-extention-pack
+
+vetur - vue2용
+
+https://marketplace.visualstudio.com/items?itemName=octref.vetur
+
+todo tree
+
+https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
