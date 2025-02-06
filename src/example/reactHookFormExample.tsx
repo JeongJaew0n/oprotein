@@ -18,7 +18,6 @@ import React, { useState } from 'react';
   /** 폼 컴포넌트 */
   const FormExample = () => {
     const [ count, setCount ] = useState<number>();
-    let mCount: number = 1;
     
     const { register, handleSubmit, formState: { errors } } = useForm<FormData>({
       // reValidateMode: 'onBlur',
